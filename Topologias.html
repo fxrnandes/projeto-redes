@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introdução</title>
         <!--CSS-->
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+
         <link rel="stylesheet" href="./css/Topologia.css">
         <!--FONTS-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,13 +34,48 @@
     </header>
 
     <main>
-                <section class="main-content">
-                    <article class="text">
-                        <h2>Topologias</h2>
-                        <p> Topologias de rede é um termo utilizado para definir a forma de estruturação de uma rede de computadores. Ela é necessária quando há uma rede de computadores conectados em uma mesma rede. Essa conexão possibilita mais segurança, compartilhamento de arquivos com facilidade, além de agilizar a comunicação.</p>
-                    </article>
-                </section>
                 
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="project-img1">
+                          <img src="/imgs/topo.png" alt="Topologia">
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="project-img2">
+                          <img src="/imgs/topo-barra.png" alt="Topologia barramento">
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="project-img3">
+                          <img src="./imgs/topo-ring.png" alt="Topologia anel">
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="project-img1">
+                          <img src="/imgs/topo-star.png" alt="Topologia estrela">
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="project-img1">
+                          <img src="/imgs/topo-mesh.png" alt="Topologia malha">
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="project-img1">
+                          <img src="/imgs/topo-hibrid.png" alt="Topologia híbrida">
+                        </div>
+                      </div>
+                    </div>
+                  
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                 
+                </div>
     </main>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 </html>
