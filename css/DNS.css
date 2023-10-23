@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+
+    background-color: #232323;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header{
+    background-color: #202020;
+    padding: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header h1 {
+    font-size: 2.8em;
+    font-weight: 200;
+    cursor: pointer;
+    color: #FE8804;
+}
+header nav {
+    display: flex;
+    align-items: center;
+}
+header nav a {
+    margin-right: 1.3em;
+    font-size: 1.3em;
+}
+.prog {
+    color: #FE8804;
+}
+header a {
+    transition: 0.5s ease-in-out;
+}
+header a:hover {
+    color: #FE8804;
+}
+
+main {
+    padding: 5%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+main .main-content h2 {
+    font-size: 2.2em;
+    font-weight: 500;
+    margin-bottom: 3%;
+}
+
+
+main .main-content .text {
+    margin-bottom: 10%;
+}
+
+main .main-content .text p {
+    width: 70%;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.texto1{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.dns {
+    color: #FE8804;
+  }
