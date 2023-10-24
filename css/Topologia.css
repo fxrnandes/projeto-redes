@@ -53,17 +53,6 @@ header a {
 header a:hover {
     color: #FE8804;
 }
-
-main {
-    height: 100vh;
-    width: 100%;
-    max-width: 1000px;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    margin-left: 200px;
-  }
   
   img {
     width: 100%;
@@ -90,10 +79,3 @@ main {
   .topo {
     color: #FE8804;
   }
-  
-  @media (max-width: 450px) {
-    .swiper {
-      height: 270px;
-    }
-  }
-  
