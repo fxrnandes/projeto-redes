@@ -60,6 +60,7 @@ img {
 
 .swiper {
   height: 500px;
+  margin-bottom: 10%;
 }
 
 .swiper-slide {
@@ -67,6 +68,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .swiper-button-prev {
@@ -79,16 +81,109 @@ img {
 .osi {
   color: #FE8804;
 }
-@media screen and (max-width: 768px) {
+
+h1{
+  margin-bottom: 1%;
+  margin-top: 5%;
+}
+.textosi{
+  width: 60%;
+  text-align: justify;
+  margin-left: 350px;
+  font-size: 1.0em;
+}
+
+@media screen and (max-width: 400px) {
   header h1{
       font-size: 2.0em;
       font-weight: 200;
   }
-}
-@media screen and (max-width: 768px) {
   header nav a {
-      margin-right: 0.7em;
-      font-size: 0.9em;
+      margin-right: 0.4em;
+      font-size: 0.8em;
+  }
+  .project-img1 {
+    margin-top: -220px;
+  }
+  .project-img1 p {
+    margin-right: 490px;
+    width: 45%;
+  }
+  .project-img1 h1 {
+    margin-bottom: 50px;
+  }
+  .project-img2 {
+    margin-top: -110px;
+  }
+  .project-img2 p {
+    margin-right: 490px;
+    width: 45%;
+  }
+  .project-img2 h1 {
+    margin-bottom: 50px;
+  }
+  .project-img3 {
+    margin-top: -70px;
+  }
+  .project-img3 p {
+    margin-right: 490px;
+    width: 45%;
+  }
+  .project-img3 h1 {
+    margin-bottom: 40px;
+    font-size: 1.4em;
+  }
+  .project-img4 {
+    margin-top: -80px;
+  }
+  .project-img4 p {
+    margin-right: 450px;
+    width: 45%;
+  }
+  .project-img4 h1 {
+    margin-bottom: 30px;
+  }
+  .project-img5 {
+    margin-top: -80px;
+  }
+  .project-img5 p {
+    margin-right: 490px;
+    width: 45%;
+  }
+  .project-img5 h1 {
+    margin-bottom: 50px;
+    font-size: 1.8em;
+  }
+  .project-img6 {
+    margin-top: -90px;
+  }
+  .project-img6 p {
+    margin-right: 490px;
+    width: 45%;
+  }
+  .project-img6 h1 {
+    margin-bottom: 50px;
+  }
+  .project-img7 {
+    margin-top: -60px;
+  }
+  .project-img7 p {
+    margin-right: 450px;
+    width: 45%;
+  }
+  .project-img7 h1 {
+    margin-bottom: 20px;
+    font-size: 1.6em;
+  }
+  .project-img8 {
+    margin-top: -70px;
+  }
+  .project-img8 p {
+    margin-right: 490px;
+    width: 45%;
+  }
+  .project-img8 h1 {
+    margin-bottom: 30px;
+    font-size: 1.8em;
   }
 }
-

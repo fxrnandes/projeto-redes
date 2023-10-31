@@ -55,11 +55,13 @@ header a:hover {
 }
   
   img {
-    width: 100%;
+    width: 50%;
+  
   }
   
   .swiper {
     height: 500px;
+    margin-bottom: 10%;
   }
   
   .swiper-slide {
@@ -79,15 +81,112 @@ header a:hover {
   .topo {
     color: #FE8804;
   }
-  @media screen and (max-width: 768px) {
+  .top1{
+    width: 60%;
+    text-align: justify;
+    margin-left: 350px;
+    font-size: 1.0em;
+  }
+  h1{
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  .img1{
+    width: 400px;  
+  }
+  .img2{
+    width: 400px;
+  }
+  .imganel{
+    width: 300px;
+  }
+  .imgestrela{
+    width: 300px;
+  }
+  .imgmesh{
+    width: 300px;
+  }
+  .textanel{
+    width: 60%;
+    text-align: justify;
+    margin-left: 350px;
+    font-size: 1.0em;
+  }
+  .textestrela{
+    width: 62%;
+    text-align: justify;
+    margin-left: 300px;
+    font-size: 1.0em;
+  }
+  .textmesh{
+    width: 62%;
+    text-align: justify;
+    margin-left: 300px;
+    font-size: 1.0em;
+  }
+
+  .h1estrela{
+    margin-top: 3%;
+  }
+ 
+  @media screen and (max-width: 400px) {
     header h1{
         font-size: 2.0em;
         font-weight: 200;
     }
-}
-@media screen and (max-width: 768px) {
-    header nav a {
-        margin-right: 0.7em;
-        font-size: 0.9em;
+    h1{
+      font-size: 1.6em;
+
     }
+    header nav a {
+      margin-right: 0.4em;
+      font-size: 0.8em;
+  }
+  header {
+    padding: 15px;
+  }
+  .swiper {
+    margin-bottom: 100px;
+  }
+  .swiper-button-prev {
+    margin-bottom: 500px;
+  }
+  .swiper-button-next {
+    margin-bottom: 500px;
+  }
+  .top1 {
+    margin-left: 20%;
+  }
+  .textanel {
+    margin-left: 20%;
+  }
+  .textestrela{
+    margin-left: 20%;
+    font-size: 0.9em;
+  }
+  .project-img2 .img1 {
+    width: 300px;
+  }
+  .project-img3 .imganel {
+    width: 200px;
+  }
+  .project-img4 .imgestrela {
+    width: 200px;
+  }
+  .project-img4 {
+    margin-bottom: -30px;
+  }
+  .project-img5 .img1 {
+    width: 200px;
+  }
+  .project-img6 .img2{
+  width: 250px;
+  margin-top: -25px;
+}
+.project-img6 {
+  margin-bottom: -40px;
+}
+.project-img6 h1 {
+  font-size: 1.5em;
+}
 }
